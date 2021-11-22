@@ -1,0 +1,16 @@
+{
+  "name": "Donate-page",
+  "version": "1.0.0",
+  "author": "MrLivixx",
+  "license": "MIT",
+  "engines": {
+    "node": "16.x"
+  },
+  "scripts": {
+    "build": "cd backend && npm i && npx tsc --build tsconfig.json",
+    "start": "node ./backend/dist/index"
+  },
+  "dependencies": {
+    "fastify-formbody": "^5.1.0"
+  }
+}
